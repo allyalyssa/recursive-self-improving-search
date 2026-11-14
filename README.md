@@ -20,3 +20,58 @@ find nodes -name node.md -type f -exec grep -inF 'recursive search' {} +
 ```
 
 To update an existing project node, edit its `node.md` and preserve its UUID and placement in the tree. Commit the edit through the team's GitHub workflow.
+
+## What the pipeline does
+
+The searcher that searches for how to search. A search method is a frozen JSON file: instructions for the searcher plus a routing policy over Telem's providers (which engines, auto-routing or pinned, tier, results per provider, domain and date filters, batch query variants, when to fetch). Each round:
+
+1. **Train.** The current method runs two train hunts. Every web call goes through Telem, one Telem session per attempt.
+2. **Improve.** The improver reads the score table, the Telem provider-yield table and the losing logs, writes lessons as nodes, and proposes candidate methods. It searches the history tree and the web *with the current method*, so a better method also makes a better improver.
+3. **Select.** The current method and each candidate run the same two unseen select hunts at the same Telem budget. The best one is adopted only if it beats the current method.
+4. **Test.** The round's winner re-runs on the four fixed held-out test hunts. That re-run is the curve we plot, which guards against a lucky best-of-k pick.
+
+The seed method `v000` is Telem's own auto-routing with a plain agent, so the curve shows how far a learned routing policy gets past Telem's default.
+
+**Hunts.** Twelve "find every X" hunts across people, works and structures (`rsis/hunts.py`). Each answer set is computed from Wikidata and cached in `data/hunts/`. Searchers never see it, and `wikidata.org` results are dropped in the Telem wrapper.
+
+**Referee.** Finds are matched to Wikidata labels and aliases. A find Wikidata lacks gets an independent check through Tavily (a separate route from the searcher's Telem calls) and a judge model outside the improver's model family. Score = (correct - 0.5 x wrong) / answer-set size. Duplicates don't count.
+
+**Plateau matrix.** If the winner's test re-run doesn't beat the best so far by more than the noise band for two rounds in a row, the next round is a breakout round: fresh improvers, each given a different slice of history and a different earlier version. Two breakouts in a row without a gain stops the run as "levelled off".
+
+**Recursion test.** Generations 0, 3, 6... each get the same improvement job: start from `v000`, with history (attempts, lineage, provider yield, tree nodes) frozen at the end of round 1, and the same budget. Only the method the improver searches with changes. Rising successor scores mean the system got better at improving, not only at searching. Flat bars mean continual learning, and we report it that way.
+
+**Records.** Attempts are numeric rows in `runs/<name>/attempts.jsonl`. Method versions, lessons, rounds and adoptions are nodes in the SiftText `node.md` layout under `runs/<name>/tree/`, kept apart from the synced `nodes/` tree.
+
+## Running it, step by step
+
+Needs Python 3.10+ and nothing else (standard library only).
+
+1. Copy `.env.example` to `.env`. Fill in `TELEM_API_KEY`, `TAVILY_API_KEY` and an OpenAI-compatible endpoint (`LLM_BASE_URL`, `LLM_API_KEY`). Set the model IDs your endpoint uses for the searcher (Terra 6.1, high), the improver (GPT 6 Astra, medium) and the judge.
+2. Check every key and model with one cheap call each:
+   ```
+   python -m rsis smoke
+   ```
+   It also tries each Telem provider name. Remove from `SEARCH_PRICE` in `rsis/telem.py` any provider that returns an error.
+3. (Optional) Rebuild the answer sets from Wikidata. They are already committed.
+   ```
+   python -m rsis build-hunts
+   ```
+4. Measure the noise band. This runs `v000` three times on the four test hunts. A failed attempt scores 0 and is logged to `runs/main/errors.jsonl`; check that file if a score looks off.
+   ```
+   python -m rsis calibrate --name main
+   ```
+5. Run the loop. It stops early at the spend cap or when it levels off.
+   ```
+   python -m rsis run --name main --rounds 6 --max-spend 20
+   ```
+6. Run the recursion test on the adopted generations, for example:
+   ```
+   python -m rsis recursion-test --name main --gens v000 v003 v006
+   ```
+7. Open `runs/main/report.html`. It shows the test curve against the Telem auto-routing baseline, the recursion bars, Telem provider yield (correct finds per dollar for each provider) and the method lineage.
+
+`python -m rsis round --name main` runs a single round.
+
+## Budget
+
+The Telem spend cap is $0.08 per attempt (`ATTEMPT_BUDGET`), so a cheaper route buys more searches. A round at k=2 runs 12 attempts plus one improver session: at most about $1.06 of Telem and up to 144 Tavily credits. Calibration (12 attempts), six rounds and a three-generation recursion test (12 attempts) come to at most about $8.30 of Telem, well inside the $50 credit. Telem costs are estimated from the published per-provider prices; the console has the exact figures.

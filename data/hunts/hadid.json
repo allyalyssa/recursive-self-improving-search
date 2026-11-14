@@ -1,0 +1,364 @@
+{
+ "name": "hadid",
+ "kind": "structures",
+ "pool": "test",
+ "question": "Find every building or structure designed by the architect Zaha Hadid.",
+ "criterion": "building or structure designed by Zaha Hadid (or Zaha Hadid Architects)",
+ "where": "?a rdfs:label \"Zaha Hadid\"@en; wdt:P31 wd:Q5. ?x wdt:P84 ?a.",
+ "truth": [
+  {
+   "qid": "Q140498",
+   "label": "Spittelau Viaducts Housing Project",
+   "aliases": [
+    "Apartment complex on the Spittelauer Lände",
+    "URBI - Urban Island Spittelau",
+    "Zaha-Hadid-Haus"
+   ]
+  },
+  {
+   "qid": "Q265695",
+   "label": "Phaeno Science Center",
+   "aliases": [
+    "Phæno",
+    "phaeno.de"
+   ]
+  },
+  {
+   "qid": "Q285531",
+   "label": "Al Janoub Stadium",
+   "aliases": [
+    "Al Wakrah Stadium",
+    "Wakra Stadium"
+   ]
+  },
+  {
+   "qid": "Q308874",
+   "label": "London Aquatics Centre",
+   "aliases": [
+    "Aquatics Centre (London)",
+    "London Aquatic Center",
+    "London Aquatic Centre",
+    "London Aquatics Center"
+   ]
+  },
+  {
+   "qid": "Q591086",
+   "label": "Serpentine Galleries",
+   "aliases": [
+    "Serpentine",
+    "Serpentine Gallery"
+   ]
+  },
+  {
+   "qid": "Q672833",
+   "label": "Bergiselschanze",
+   "aliases": [
+    "Bergisel"
+   ]
+  },
+  {
+   "qid": "Q43928",
+   "label": "Heydar Aliyev Cultural Center",
+   "aliases": [
+    "Heydar Aliyev Center"
+   ]
+  },
+  {
+   "qid": "Q3995195",
+   "label": "Generali Tower",
+   "aliases": [
+    "lo Storto",
+    "Torre Hadid"
+   ]
+  },
+  {
+   "qid": "Q6036183",
+   "label": "Jockey Club Innovation Tower",
+   "aliases": [
+    "Innovation Tower"
+   ]
+  },
+  {
+   "qid": "Q7338547",
+   "label": "Riverside Museum",
+   "aliases": [
+    "Riverside Museum Glasgow"
+   ]
+  },
+  {
+   "qid": "Q15913208",
+   "label": "Galaxy SOHO",
+   "aliases": [
+    "Yinhe SOHO"
+   ]
+  },
+  {
+   "qid": "Q25455138",
+   "label": "Vitra Fire Station",
+   "aliases": [
+    "Hadid Fire Station"
+   ]
+  },
+  {
+   "qid": "Q28714997",
+   "label": "King Abdullah Financial District",
+   "aliases": [
+    "KAFD"
+   ]
+  },
+  {
+   "qid": "Q29469309",
+   "label": "520 West 28th Street",
+   "aliases": [
+    "520 West 28th"
+   ]
+  },
+  {
+   "qid": "Q30233471",
+   "label": "Dominion Tower",
+   "aliases": [
+    "Dominion Office Building",
+    "Peresvet-Plaze"
+   ]
+  },
+  {
+   "qid": "Q48807681",
+   "label": "Residenze Hadid",
+   "aliases": [
+    "CityLife Milano Residential Complex"
+   ]
+  },
+  {
+   "qid": "Q60533061",
+   "label": "Messner Mountain Museum Corones",
+   "aliases": [
+    "MMM Corones"
+   ]
+  },
+  {
+   "qid": "Q64809079",
+   "label": "Royal Theatre of Rabat",
+   "aliases": [
+    "Grand Theâtre de Rabat"
+   ]
+  },
+  {
+   "qid": "Q108823236",
+   "label": "WU Vienna, Library and Learning Center",
+   "aliases": [
+    "Vienna University of Economics and Business, Library and Learning Center"
+   ]
+  },
+  {
+   "qid": "Q116471693",
+   "label": "The Magazine",
+   "aliases": [
+    "Magazine"
+   ]
+  },
+  {
+   "qid": "Q127608708",
+   "label": "Rosenthal Center for Contemporary Art",
+   "aliases": [
+    "Lois & Richard Rosenthal Center for Contemporary Art",
+    "The Lois & Richard Rosenthal Center for Contemporary Art"
+   ]
+  },
+  {
+   "qid": "Q1370993",
+   "label": "Hungerburgbahn",
+   "aliases": []
+  },
+  {
+   "qid": "Q1881229",
+   "label": "MAXXI",
+   "aliases": []
+  },
+  {
+   "qid": "Q2277764",
+   "label": "Sheikh Zayed Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q2367010",
+   "label": "Bridge Pavilion",
+   "aliases": []
+  },
+  {
+   "qid": "Q3329283",
+   "label": "Musée Mobile Art",
+   "aliases": []
+  },
+  {
+   "qid": "Q3354553",
+   "label": "Guangzhou Opera House",
+   "aliases": []
+  },
+  {
+   "qid": "Q3533034",
+   "label": "CMA CGM Tower",
+   "aliases": []
+  },
+  {
+   "qid": "Q3678603",
+   "label": "CityLife",
+   "aliases": []
+  },
+  {
+   "qid": "Q3970269",
+   "label": "Napoli Afragola railway station",
+   "aliases": []
+  },
+  {
+   "qid": "Q3971406",
+   "label": "Salerno harbor station",
+   "aliases": []
+  },
+  {
+   "qid": "Q4836031",
+   "label": "BMW Central Building",
+   "aliases": []
+  },
+  {
+   "qid": "Q5295847",
+   "label": "Dongdaemun Design Plaza & Park",
+   "aliases": []
+  },
+  {
+   "qid": "Q5416333",
+   "label": "Evelyn Grace Academy",
+   "aliases": []
+  },
+  {
+   "qid": "Q6547865",
+   "label": "Lilium Tower",
+   "aliases": []
+  },
+  {
+   "qid": "Q7512848",
+   "label": "Signature Towers",
+   "aliases": []
+  },
+  {
+   "qid": "Q12256426",
+   "label": "Durango",
+   "aliases": []
+  },
+  {
+   "qid": "Q15855324",
+   "label": "Nanjing International Youth Cultural Centre",
+   "aliases": []
+  },
+  {
+   "qid": "Q16925182",
+   "label": "Wangjing SOHO",
+   "aliases": []
+  },
+  {
+   "qid": "Q18648965",
+   "label": "Chennai Tech Park",
+   "aliases": []
+  },
+  {
+   "qid": "Q20127495",
+   "label": "Capital Hill Residence",
+   "aliases": []
+  },
+  {
+   "qid": "Q20987795",
+   "label": "Fereshteh Pasargad Hotel",
+   "aliases": []
+  },
+  {
+   "qid": "Q21609051",
+   "label": "Grace on Coronation",
+   "aliases": []
+  },
+  {
+   "qid": "Q23930610",
+   "label": "Havenhuis",
+   "aliases": []
+  },
+  {
+   "qid": "Q24039562",
+   "label": "JS Bach Chamber Music Hall",
+   "aliases": []
+  },
+  {
+   "qid": "Q24150797",
+   "label": "pierresvives",
+   "aliases": []
+  },
+  {
+   "qid": "Q28714993",
+   "label": "Altstadt",
+   "aliases": []
+  },
+  {
+   "qid": "Q37914917",
+   "label": "Leeza Soho",
+   "aliases": []
+  },
+  {
+   "qid": "Q48808358",
+   "label": "Citylife Shopping District",
+   "aliases": []
+  },
+  {
+   "qid": "Q56322331",
+   "label": "London Roca Gallery",
+   "aliases": []
+  },
+  {
+   "qid": "Q61767613",
+   "label": "Mietshaus Stresemannstraße 105 & 107 & 109",
+   "aliases": []
+  },
+  {
+   "qid": "Q98123803",
+   "label": "Neue Hungerburgbahnbrücke",
+   "aliases": []
+  },
+  {
+   "qid": "Q100258244",
+   "label": "Central Bank of Iraq Tower",
+   "aliases": []
+  },
+  {
+   "qid": "Q116619712",
+   "label": "Alpenzoo",
+   "aliases": []
+  },
+  {
+   "qid": "Q116619720",
+   "label": "Hungerburg",
+   "aliases": []
+  },
+  {
+   "qid": "Q117048881",
+   "label": "Serpentine Gallery Pavilion 2000",
+   "aliases": []
+  },
+  {
+   "qid": "Q118352587",
+   "label": "Yury Dolgoruky",
+   "aliases": []
+  },
+  {
+   "qid": "Q123492551",
+   "label": "Investcorp Building",
+   "aliases": []
+  },
+  {
+   "qid": "Q124209168",
+   "label": "The Henderson",
+   "aliases": []
+  },
+  {
+   "qid": "Q141697226",
+   "label": "Arthotel Billie Strauss",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

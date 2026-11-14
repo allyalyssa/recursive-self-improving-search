@@ -1,0 +1,100 @@
+{
+ "name": "fields_france",
+ "kind": "people",
+ "pool": "test",
+ "question": "Find every Fields Medal winner who holds French citizenship.",
+ "criterion": "Fields Medal winner with French citizenship",
+ "where": "?x p:P166/ps:P166 wd:Q28835; wdt:P27 wd:Q142.",
+ "truth": [
+  {
+   "qid": "Q715043",
+   "label": "Artur Ávila",
+   "aliases": [
+    "Artur Avila",
+    "Artur Avila Cordeiro de Melo"
+   ]
+  },
+  {
+   "qid": "Q369588",
+   "label": "Maxim Kontsevich",
+   "aliases": [
+    "Maxim Lvovich Kontsevich"
+   ]
+  },
+  {
+   "qid": "Q77141",
+   "label": "Alexander Grothendieck",
+   "aliases": [
+    "Alexandre Grothendieck",
+    "Alexandre Grothendieck",
+    "Shourik"
+   ]
+  },
+  {
+   "qid": "Q164428",
+   "label": "René Thom",
+   "aliases": [
+    "Rene Thom",
+    "Réné Thom",
+    "René Frédéric Thom"
+   ]
+  },
+  {
+   "qid": "Q212063",
+   "label": "Jean-Pierre Serre",
+   "aliases": [
+    "Jean-Pierre Albert Achille Serre"
+   ]
+  },
+  {
+   "qid": "Q212081",
+   "label": "Laurent Schwartz",
+   "aliases": [
+    "Laurent-Moïse Schwartz"
+   ]
+  },
+  {
+   "qid": "Q216350",
+   "label": "Ngô Bảo Châu",
+   "aliases": [
+    "Ngo Bao Chau"
+   ]
+  },
+  {
+   "qid": "Q164369",
+   "label": "Wendelin Werner",
+   "aliases": []
+  },
+  {
+   "qid": "Q313590",
+   "label": "Alain Connes",
+   "aliases": []
+  },
+  {
+   "qid": "Q315396",
+   "label": "Laurent Lafforgue",
+   "aliases": []
+  },
+  {
+   "qid": "Q334030",
+   "label": "Pierre-Louis Lions",
+   "aliases": []
+  },
+  {
+   "qid": "Q334065",
+   "label": "Cédric Villani",
+   "aliases": []
+  },
+  {
+   "qid": "Q369600",
+   "label": "Jean-Christophe Yoccoz",
+   "aliases": []
+  },
+  {
+   "qid": "Q15461028",
+   "label": "Hugo Duminil-Copin",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

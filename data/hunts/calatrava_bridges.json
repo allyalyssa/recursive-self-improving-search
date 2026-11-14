@@ -1,0 +1,141 @@
+{
+ "name": "calatrava_bridges",
+ "kind": "structures",
+ "pool": "train",
+ "question": "Find every bridge designed by the architect Santiago Calatrava.",
+ "criterion": "bridge designed by Santiago Calatrava",
+ "where": "?a rdfs:label \"Santiago Calatrava\"@en. ?x wdt:P84 ?a; wdt:P31/wdt:P279* wd:Q12280.",
+ "truth": [
+  {
+   "qid": "Q227583",
+   "label": "Zubizuri",
+   "aliases": [
+    "Puente del Campo Volantin"
+   ]
+  },
+  {
+   "qid": "Q695082",
+   "label": "Oberbaumbrücke",
+   "aliases": [
+    "Oberbaum Bridge"
+   ]
+  },
+  {
+   "qid": "Q1057872",
+   "label": "Jerusalem Chords Bridge",
+   "aliases": [
+    "Bridge of Strings",
+    "Jerusalem Bridge of Strings",
+    "Jerusalem Light Rail Bridg"
+   ]
+  },
+  {
+   "qid": "Q1983772",
+   "label": "Pont de l'Exposició",
+   "aliases": [
+    "Puente De La Exposición"
+   ]
+  },
+  {
+   "qid": "Q3396457",
+   "label": "Bac de Roda Bridge",
+   "aliases": [
+    "Calatrava Bridge",
+    "pont de Bac de Roda"
+   ]
+  },
+  {
+   "qid": "Q592203",
+   "label": "Crown Prince Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q945154",
+   "label": "James Joyce Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q1153057",
+   "label": "Sundial Bridge at Turtle Bay",
+   "aliases": []
+  },
+  {
+   "qid": "Q1193916",
+   "label": "Samuel Beckett Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q1353494",
+   "label": "Puente del Alamillo",
+   "aliases": []
+  },
+  {
+   "qid": "Q2336867",
+   "label": "Puente de la Mujer",
+   "aliases": []
+  },
+  {
+   "qid": "Q2458493",
+   "label": "Assut de l'Or Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q3314572",
+   "label": "Puente de Itsas Aurre",
+   "aliases": []
+  },
+  {
+   "qid": "Q3368267",
+   "label": "Pasarela Jorge Manrique, Murcia",
+   "aliases": []
+  },
+  {
+   "qid": "Q3397217",
+   "label": "pont de l'Europe",
+   "aliases": [
+    "Pont de l'Europe"
+   ]
+  },
+  {
+   "qid": "Q3397285",
+   "label": "Peace Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q3539290",
+   "label": "Trinity Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q4304514",
+   "label": "Petah-Tikva Footbridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q6091200",
+   "label": "Lusitania Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q6759541",
+   "label": "Margaret Hunt Hill Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q7310173",
+   "label": "Reiman Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q18154095",
+   "label": "Margaret McDermott Bridge",
+   "aliases": []
+  },
+  {
+   "qid": "Q52501",
+   "label": "ponte della Costituzione",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

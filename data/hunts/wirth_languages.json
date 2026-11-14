@@ -1,0 +1,46 @@
+{
+ "name": "wirth_languages",
+ "kind": "works",
+ "pool": "select",
+ "question": "Find every programming language designed by Niklaus Wirth.",
+ "criterion": "programming language designed by Niklaus Wirth",
+ "where": "?x wdt:P287 wd:Q92604.",
+ "truth": [
+  {
+   "qid": "Q81571",
+   "label": "Pascal",
+   "aliases": [
+    "Pascal programming language",
+    "ISO 10206",
+    "ISO 7185",
+    "ISO/IEC 10206"
+   ]
+  },
+  {
+   "qid": "Q278299",
+   "label": "Lilith",
+   "aliases": []
+  },
+  {
+   "qid": "Q777358",
+   "label": "Modula-2",
+   "aliases": []
+  },
+  {
+   "qid": "Q907880",
+   "label": "Euler",
+   "aliases": []
+  },
+  {
+   "qid": "Q1323362",
+   "label": "Oberon",
+   "aliases": []
+  },
+  {
+   "qid": "Q3251260",
+   "label": "Oberon-2",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

@@ -1,0 +1,80 @@
+{
+ "name": "turing_uk",
+ "kind": "people",
+ "pool": "select",
+ "question": "Find every Turing Award winner who was born in the United Kingdom.",
+ "criterion": "Turing Award winner born in the United Kingdom",
+ "where": "?a rdfs:label \"Turing Award\"@en. ?x p:P166/ps:P166 ?a; wdt:P19/wdt:P17 wd:Q145.",
+ "truth": [
+  {
+   "qid": "Q92894",
+   "label": "Geoffrey Hinton",
+   "aliases": [
+    "G. E. Hinton",
+    "Geoff Hinton",
+    "Geoffrey E. Hinton",
+    "Geoffrey Everest Hinton"
+   ]
+  },
+  {
+   "qid": "Q80",
+   "label": "Tim Berners-Lee",
+   "aliases": [
+    "Berners-Lee",
+    "Timothy John Berners-Lee",
+    "Sir Tim Berners-Lee",
+    "Sir Timothy John Berners-Lee",
+    "T Berners-Lee",
+    "T. Berners-Lee",
+    "T. J. Berners-Lee",
+    "T.J. Berners-Lee",
+    "TBL",
+    "Tim Berners Lee",
+    "TimBL",
+    "Timothy John Berners-Lee",
+    "TJ Berners-Lee",
+    "Sir Timothy John Berners-Lee",
+    "TimBL"
+   ]
+  },
+  {
+   "qid": "Q62857",
+   "label": "Maurice Wilkes",
+   "aliases": [
+    "Maurice V. Wilkes",
+    "Maurice Vincent Wilkes",
+    "Sir Maurice Vincent Wilkes"
+   ]
+  },
+  {
+   "qid": "Q92596",
+   "label": "Edgar F. Codd",
+   "aliases": [
+    "E. F. Codd",
+    "Edgar Frank \"Ted\" Codd",
+    "Edgar Frank Codd",
+    "Edgar Codd"
+   ]
+  },
+  {
+   "qid": "Q92643",
+   "label": "Robin Milner",
+   "aliases": [
+    "A. J. R. G. Milner",
+    "Arthur John Robin Gorell Milner"
+   ]
+  },
+  {
+   "qid": "Q62877",
+   "label": "James H. Wilkinson",
+   "aliases": [
+    "James Wilkinson",
+    "Jim Wilkinson",
+    "J. H. WIlkinson",
+    "J. Wilkinson",
+    "James Hardy Wilkinson"
+   ]
+  }
+ ],
+ "built": "2026-11-14"
+}

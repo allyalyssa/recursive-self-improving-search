@@ -1,0 +1,124 @@
+{
+ "name": "women_chem_nobel",
+ "kind": "people",
+ "pool": "train",
+ "question": "Find every woman who has won the Nobel Prize in Chemistry.",
+ "criterion": "woman who won the Nobel Prize in Chemistry",
+ "where": "?x p:P166/ps:P166 wd:Q44585; wdt:P21 wd:Q6581072.",
+ "truth": [
+  {
+   "qid": "Q17280087",
+   "label": "Emmanuelle Charpentier",
+   "aliases": [
+    "E. Charpentier",
+    "E. M. Charpentier",
+    "E. M. Petitfrère",
+    "E. Petitfrère",
+    "Emmanuelle M. Charpentier",
+    "Emmanuelle M. Petitfrère",
+    "Emmanuelle Marie Petitfrère",
+    "Emmanuelle Petitfrère",
+    "Charpentier, Emmanuelle Marie",
+    "E. M. Petitfrère",
+    "E. Petitfrère",
+    "Emmanuelle M. Petitfrère",
+    "Emmanuelle Marie Petitfrère",
+    "Charpentier E",
+    "E. Charpentier",
+    "E. M. Charpentier",
+    "Emmanuelle M. Charpentier",
+    "Emmanuelle Marie Charpentier",
+    "Emmanuelle Petitfrère",
+    "Emmanuelle Marie Charpentier",
+    "Charpentier E",
+    "Charpentier, Emmanuelle Marie"
+   ]
+  },
+  {
+   "qid": "Q7186",
+   "label": "Marie Curie",
+   "aliases": [
+    "Maria Curie-Skłodowska",
+    "Maria Salomea Skłodowska",
+    "Maria Skłodowska-Curie",
+    "Marie Curie-Skłodowska",
+    "Marie Skłodowska-Curie",
+    "Madame Pierre Curie",
+    "Marie Salomée Skłodowska Curie",
+    "Madame Curie",
+    "Mme Curie"
+   ]
+  },
+  {
+   "qid": "Q7442",
+   "label": "Carolyn Bertozzi",
+   "aliases": [
+    "Bertozzi",
+    "Bertozzi C",
+    "Bertozzi C R",
+    "Bertozzi C.",
+    "Bertozzi C. R.",
+    "Bertozzi CR",
+    "C Bertozzi",
+    "C R Bertozzi",
+    "C. Bertozzi",
+    "C. R. Bertozzi",
+    "Carolyn R Bertozzi",
+    "Carolyn R. Bertozzi",
+    "Carolyn Ruth Bertozzi",
+    "CR Bertozzi"
+   ]
+  },
+  {
+   "qid": "Q4273363",
+   "label": "Frances Arnold",
+   "aliases": [
+    "Frances H. Arnold",
+    "Frances Hamilton Arnold"
+   ]
+  },
+  {
+   "qid": "Q56068",
+   "label": "Jennifer Doudna",
+   "aliases": [
+    "Doudna J",
+    "Doudna J.",
+    "Doudna J. A.",
+    "Doudna JA",
+    "J A Doudna",
+    "J Doudna",
+    "J. A. Doudna",
+    "J. Doudna",
+    "Jennifer A Doudna",
+    "Jennifer A. Doudna",
+    "Jennifer Anne Doudna",
+    "Doudna"
+   ]
+  },
+  {
+   "qid": "Q7426",
+   "label": "Ada Yonath",
+   "aliases": []
+  },
+  {
+   "qid": "Q7487",
+   "label": "Dorothy Hodgkin",
+   "aliases": [
+    "Dorothy Crowfoot",
+    "Dorothy Mary Crowfoot",
+    "Dorothy Crowfoot Hodgkin",
+    "Dorothy Mary Crowfoot Hodgkin",
+    "Dorothy Mary Hodgkin"
+   ]
+  },
+  {
+   "qid": "Q7504",
+   "label": "Irène Joliot-Curie",
+   "aliases": [
+    "Irène Curie",
+    "Irene Joliot-Curie"
+   ]
+  }
+ ],
+ "built": "2026-11-14"
+}

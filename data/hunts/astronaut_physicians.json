@@ -1,0 +1,411 @@
+{
+ "name": "astronaut_physicians",
+ "kind": "people",
+ "pool": "train",
+ "question": "Find every astronaut who is also a trained physician (medical doctor).",
+ "criterion": "astronaut who is also a physician / medical doctor",
+ "where": "?x wdt:P106 wd:Q11631; wdt:P106 wd:Q39631.",
+ "truth": [
+  {
+   "qid": "Q143103",
+   "label": "Norman Thagard",
+   "aliases": [
+    "Norman Earl Thagard"
+   ]
+  },
+  {
+   "qid": "Q185560",
+   "label": "William Frederick Fisher",
+   "aliases": [
+    "William F. Fisher"
+   ]
+  },
+  {
+   "qid": "Q232441",
+   "label": "Laurel Clark",
+   "aliases": [
+    "Laurel Blair Clark",
+    "Laurel Blair Salton Clark"
+   ]
+  },
+  {
+   "qid": "Q234306",
+   "label": "Chiaki Mukai",
+   "aliases": [
+    "Chiaki Naito"
+   ]
+  },
+  {
+   "qid": "Q34091",
+   "label": "Mae Jemison",
+   "aliases": [
+    "Mae C. Jemison",
+    "Mae Carol Jemison",
+    "Mae EL Jemison",
+    "Mae Carol Jemison"
+   ]
+  },
+  {
+   "qid": "Q235580",
+   "label": "Claudie Haigneré",
+   "aliases": [
+    "Claudie André-Deshays",
+    "Claudie Haignere"
+   ]
+  },
+  {
+   "qid": "Q237470",
+   "label": "Anna Lee Fisher",
+   "aliases": [
+    "Anna Fisher",
+    "Anna L. Fisher",
+    "Anna L. Tingle",
+    "Anna Lee Tingle Fisher",
+    "Anna Tingle"
+   ]
+  },
+  {
+   "qid": "Q254298",
+   "label": "Margaret Rhea Seddon",
+   "aliases": [
+    "Rhea Seddon",
+    "M R Seddon",
+    "M. R. Seddon",
+    "M. Rhea Seddon",
+    "M.R. Seddon",
+    "Margaret R. Seddon",
+    "Margaret Seddon",
+    "MR Seddon"
+   ]
+  },
+  {
+   "qid": "Q258385",
+   "label": "Roberta Bondar",
+   "aliases": [
+    "Roberta Lynn Bondar"
+   ]
+  },
+  {
+   "qid": "Q264460",
+   "label": "Ellen S. Baker",
+   "aliases": [
+    "Ellen Baker",
+    "Ellen Louise Shulman Baker"
+   ]
+  },
+  {
+   "qid": "Q281604",
+   "label": "Boris Morukov",
+   "aliases": [
+    "Boris V. Morukov",
+    "Boris Vladimirovich Morukov"
+   ]
+  },
+  {
+   "qid": "Q317792",
+   "label": "Valeri Polyakov",
+   "aliases": [
+    "Valeri Vladimirovich Polyakov",
+    "Valery Polyakov"
+   ]
+  },
+  {
+   "qid": "Q342338",
+   "label": "Oleg Kotov",
+   "aliases": [
+    "Oleg Valeriyevich Kotov"
+   ]
+  },
+  {
+   "qid": "Q350317",
+   "label": "David M. Brown",
+   "aliases": [
+    "David McDowell Brown"
+   ]
+  },
+  {
+   "qid": "Q352137",
+   "label": "Boris Borisovich Yegorov",
+   "aliases": [
+    "Boris Yegorov"
+   ]
+  },
+  {
+   "qid": "Q365317",
+   "label": "Vasily Lazarev",
+   "aliases": [
+    "Vasily Grigoryevich Lazarev"
+   ]
+  },
+  {
+   "qid": "Q440251",
+   "label": "Michael Barratt",
+   "aliases": [
+    "Barratt",
+    "Michael Reed Barratt"
+   ]
+  },
+  {
+   "qid": "Q446917",
+   "label": "Joseph P. Kerwin",
+   "aliases": [
+    "Joseph Peter Kerwin"
+   ]
+  },
+  {
+   "qid": "Q454649",
+   "label": "André Kuipers",
+   "aliases": [
+    "Andre Kuipers"
+   ]
+  },
+  {
+   "qid": "Q461788",
+   "label": "David Wolf",
+   "aliases": [
+    "David Alexander Wolf"
+   ]
+  },
+  {
+   "qid": "Q471380",
+   "label": "Dafydd Williams",
+   "aliases": [
+    "David R. Williams",
+    "David Williams",
+    "Dave Williams",
+    "Dafydd Rhys Williams"
+   ]
+  },
+  {
+   "qid": "Q520384",
+   "label": "Thomas Marshburn",
+   "aliases": [
+    "Thomas Henry Marshburn",
+    "Tom Marshburn"
+   ]
+  },
+  {
+   "qid": "Q706739",
+   "label": "Scott E. Parazynski",
+   "aliases": [
+    "Scott Edward Parazynski"
+   ]
+  },
+  {
+   "qid": "Q718630",
+   "label": "James P. Bagian",
+   "aliases": [
+    "James Philip Bagian"
+   ]
+  },
+  {
+   "qid": "Q719926",
+   "label": "William E. Thornton",
+   "aliases": [
+    "William Thornton",
+    "William Edgar Thornton"
+   ]
+  },
+  {
+   "qid": "Q822249",
+   "label": "Bernard A. Harris, Jr.",
+   "aliases": [
+    "Bernard Harris",
+    "Bernard Anthony Harris, Jr.",
+    "Bernard Harris, Jr."
+   ]
+  },
+  {
+   "qid": "Q1173930",
+   "label": "David C. Hilmers",
+   "aliases": [
+    "David Carl Hilmers"
+   ]
+  },
+  {
+   "qid": "Q1338912",
+   "label": "Sonny Carter",
+   "aliases": [
+    "Manley Carter",
+    "Manley Lanier Carter"
+   ]
+  },
+  {
+   "qid": "Q1376469",
+   "label": "Jerry M. Linenger",
+   "aliases": [
+    "Jerry Michael Linenger"
+   ]
+  },
+  {
+   "qid": "Q2632140",
+   "label": "Faiz Khaleed",
+   "aliases": [
+    "Faiz bin Khaleed"
+   ]
+  },
+  {
+   "qid": "Q2742047",
+   "label": "Patricia Robertson",
+   "aliases": [
+    "Patricia Consolatrix Hilliard Robertson"
+   ]
+  },
+  {
+   "qid": "Q3479150",
+   "label": "Serena M. Auñón-Chancellor",
+   "aliases": [
+    "Serena Maria Auñón-Chancellor"
+   ]
+  },
+  {
+   "qid": "Q3499300",
+   "label": "Duane Graveline",
+   "aliases": [
+    "Duane Edgar Graveline"
+   ]
+  },
+  {
+   "qid": "Q3574186",
+   "label": "Yvonne Cagle",
+   "aliases": [
+    "Yvonne Darlene Cagle"
+   ]
+  },
+  {
+   "qid": "Q3625307",
+   "label": "Donald Holmquest",
+   "aliases": [
+    "Donald Lee Holmquest"
+   ]
+  },
+  {
+   "qid": "Q5703723",
+   "label": "Helena Russell",
+   "aliases": [
+    "Helena",
+    "\"Alphan\" Helena",
+    "\"Earth\" Helena"
+   ]
+  },
+  {
+   "qid": "Q5970982",
+   "label": "Norishige Kanai",
+   "aliases": [
+    "Kanai Norishige"
+   ]
+  },
+  {
+   "qid": "Q6243382",
+   "label": "John Koenig",
+   "aliases": [
+    "Commander Koenig",
+    "John Robert Koenig"
+   ]
+  },
+  {
+   "qid": "Q13500735",
+   "label": "Andrew R. Morgan",
+   "aliases": [
+    "Andrew Richard \"Drew\" Morgan",
+    "Andrew Richard Morgan",
+    "Drew Morgan"
+   ]
+  },
+  {
+   "qid": "Q28716025",
+   "label": "Mariam Fardous",
+   "aliases": [
+    "Mariam H. Fardous",
+    "Mariam Hamed Fardous",
+    "Maryam Hamed Al-Firdous",
+    "Maryam Hamed Firdous"
+   ]
+  },
+  {
+   "qid": "Q30157738",
+   "label": "Jonny Kim",
+   "aliases": [
+    "Jonathan Kim",
+    "Jonathan Yong Kim"
+   ]
+  },
+  {
+   "qid": "Q99495235",
+   "label": "Carmen Possnig",
+   "aliases": [
+    "Carmen Lisa Caroline Possnig"
+   ]
+  },
+  {
+   "qid": "Q123148458",
+   "label": "Doc Matthews",
+   "aliases": [
+    "Doc",
+    "Daniel Matthews",
+    "Dr Daniel Matthews"
+   ]
+  },
+  {
+   "qid": "Q201797",
+   "label": "F. Drew Gaffney",
+   "aliases": []
+  },
+  {
+   "qid": "Q448320",
+   "label": "David Saint-Jacques",
+   "aliases": []
+  },
+  {
+   "qid": "Q461795",
+   "label": "Robert Thirsk",
+   "aliases": []
+  },
+  {
+   "qid": "Q533560",
+   "label": "Marianne Merchez",
+   "aliases": []
+  },
+  {
+   "qid": "Q708484",
+   "label": "Oleg Atkov",
+   "aliases": []
+  },
+  {
+   "qid": "Q722667",
+   "label": "Charles E. Brady Jr.",
+   "aliases": []
+  },
+  {
+   "qid": "Q1100024",
+   "label": "Clemens Lothaller",
+   "aliases": []
+  },
+  {
+   "qid": "Q1338895",
+   "label": "Jay C. Buckey",
+   "aliases": []
+  },
+  {
+   "qid": "Q5954188",
+   "label": "Judy Robinson",
+   "aliases": []
+  },
+  {
+   "qid": "Q6006816",
+   "label": "Maureen Robinson",
+   "aliases": []
+  },
+  {
+   "qid": "Q28735811",
+   "label": "Shawna Pandya",
+   "aliases": []
+  },
+  {
+   "qid": "Q109950137",
+   "label": "Anil Menon",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

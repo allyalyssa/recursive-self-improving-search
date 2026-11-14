@@ -1,0 +1,157 @@
+{
+ "name": "hugo_nebula",
+ "kind": "works",
+ "pool": "train",
+ "question": "Find every novel that won both the Hugo Award for Best Novel and the Nebula Award for Best Novel.",
+ "criterion": "novel that won both the Hugo Award for Best Novel and the Nebula Award for Best Novel",
+ "where": "?h rdfs:label \"Hugo Award for Best Novel\"@en. ?n rdfs:label \"Nebula Award for Best Novel\"@en. ?x p:P166/ps:P166 ?h; p:P166/ps:P166 ?n. FILTER NOT EXISTS {?x wdt:P31 wd:Q5}",
+ "truth": [
+  {
+   "qid": "Q2008211",
+   "label": "The Left Hand of Darkness",
+   "aliases": [
+    "Left Hand of Darkness"
+   ]
+  },
+  {
+   "qid": "Q100540380",
+   "label": "Network Effect",
+   "aliases": [
+    "Network effect"
+   ]
+  },
+  {
+   "qid": "Q467720",
+   "label": "The Dispossessed",
+   "aliases": [
+    "The Dispossessed: An Ambiguous Utopia"
+   ]
+  },
+  {
+   "qid": "Q92630",
+   "label": "The Windup Girl",
+   "aliases": []
+  },
+  {
+   "qid": "Q190192",
+   "label": "Dune",
+   "aliases": []
+  },
+  {
+   "qid": "Q389750",
+   "label": "The Gods Themselves",
+   "aliases": []
+  },
+  {
+   "qid": "Q430514",
+   "label": "American Gods",
+   "aliases": []
+  },
+  {
+   "qid": "Q598315",
+   "label": "Dreamsnake",
+   "aliases": []
+  },
+  {
+   "qid": "Q603645",
+   "label": "The Yiddish Policemen's Union",
+   "aliases": []
+  },
+  {
+   "qid": "Q651682",
+   "label": "Gateway",
+   "aliases": []
+  },
+  {
+   "qid": "Q662029",
+   "label": "Neuromancer",
+   "aliases": []
+  },
+  {
+   "qid": "Q741222",
+   "label": "Rendezvous with Rama",
+   "aliases": []
+  },
+  {
+   "qid": "Q786025",
+   "label": "The Fountains of Paradise",
+   "aliases": []
+  },
+  {
+   "qid": "Q816016",
+   "label": "Ender's Game",
+   "aliases": []
+  },
+  {
+   "qid": "Q942972",
+   "label": "Paladin of Souls",
+   "aliases": []
+  },
+  {
+   "qid": "Q1505793",
+   "label": "Ringworld",
+   "aliases": []
+  },
+  {
+   "qid": "Q2269230",
+   "label": "Among Others",
+   "aliases": []
+  },
+  {
+   "qid": "Q2291295",
+   "label": "Speaker for the Dead",
+   "aliases": []
+  },
+  {
+   "qid": "Q2363504",
+   "label": "Startide Rising",
+   "aliases": []
+  },
+  {
+   "qid": "Q2603313",
+   "label": "Doomsday Book",
+   "aliases": []
+  },
+  {
+   "qid": "Q2905261",
+   "label": "Blackout/All Clear",
+   "aliases": []
+  },
+  {
+   "qid": "Q5406934",
+   "label": "The Forever War",
+   "aliases": []
+  },
+  {
+   "qid": "Q9183865",
+   "label": "Forever Peace",
+   "aliases": []
+  },
+  {
+   "qid": "Q11681262",
+   "label": "All Clear",
+   "aliases": []
+  },
+  {
+   "qid": "Q17001721",
+   "label": "Ancillary Justice",
+   "aliases": []
+  },
+  {
+   "qid": "Q18366291",
+   "label": "Blackout",
+   "aliases": []
+  },
+  {
+   "qid": "Q39058554",
+   "label": "The Stone Sky",
+   "aliases": []
+  },
+  {
+   "qid": "Q63965925",
+   "label": "The Calculating Stars",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

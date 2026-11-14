@@ -1,0 +1,231 @@
+{
+ "name": "abel",
+ "kind": "people",
+ "pool": "select",
+ "question": "Find every mathematician who has won the Abel Prize.",
+ "criterion": "Abel Prize laureate",
+ "where": "?a rdfs:label \"Abel Prize\"@en. ?x p:P166/ps:P166 ?a.",
+ "truth": [
+  {
+   "qid": "Q128736",
+   "label": "John Forbes Nash",
+   "aliases": [
+    "John Nash",
+    "John F. Nash",
+    "John F. Nash Jr.",
+    "John Forbes Nash Jr.",
+    "The Phantom of Fine Hall"
+   ]
+  },
+  {
+   "qid": "Q38636",
+   "label": "Karen Uhlenbeck",
+   "aliases": [
+    "Karen K. Uhlenbeck",
+    "Karen Keskulla Uhlenbeck"
+   ]
+  },
+  {
+   "qid": "Q184433",
+   "label": "Andrew Wiles",
+   "aliases": [
+    "Andrew J. Wiles",
+    "Andrew John Wiles",
+    "Dr. Andrew Wiles",
+    "Prof. Sir Andrew Wiles FRS",
+    "Sir Andrew John Wiles"
+   ]
+  },
+  {
+   "qid": "Q208356",
+   "label": "Michael Atiyah",
+   "aliases": [
+    "Michael F. Atiyah",
+    "Michael Francis Atiyah",
+    "Sir Michael Francis Atiyah"
+   ]
+  },
+  {
+   "qid": "Q323331",
+   "label": "Peter Lax",
+   "aliases": [
+    "Péter Lax",
+    "Peter David Lax"
+   ]
+  },
+  {
+   "qid": "Q325705",
+   "label": "Grigory Margulis",
+   "aliases": [
+    "Gregory A. Margulis",
+    "Gregory Margulis",
+    "Grigori Margulis",
+    "Grigory Aleksandrovich Margulis"
+   ]
+  },
+  {
+   "qid": "Q334045",
+   "label": "Pierre Deligne",
+   "aliases": [
+    "Pierre Rene Deligne"
+   ]
+  },
+  {
+   "qid": "Q343420",
+   "label": "Lennart Carleson",
+   "aliases": [
+    "L. Carleson",
+    "Lennart Axel Edvard Carleson"
+   ]
+  },
+  {
+   "qid": "Q212063",
+   "label": "Jean-Pierre Serre",
+   "aliases": [
+    "Jean-Pierre Albert Achille Serre"
+   ]
+  },
+  {
+   "qid": "Q215765",
+   "label": "John Milnor",
+   "aliases": [
+    "Jack Milnor",
+    "John Willard Milnor"
+   ]
+  },
+  {
+   "qid": "Q313168",
+   "label": "John G. Thompson",
+   "aliases": [
+    "John Griggs Thompson"
+   ]
+  },
+  {
+   "qid": "Q574597",
+   "label": "Yves Meyer",
+   "aliases": [
+    "Yves François Meyer"
+   ]
+  },
+  {
+   "qid": "Q711278",
+   "label": "Robert Phelan Langlands",
+   "aliases": [
+    "Robert Langlands"
+   ]
+  },
+  {
+   "qid": "Q726376",
+   "label": "Dennis Sullivan",
+   "aliases": [
+    "Dennis P. Sullivan",
+    "Dennis Parnell Sullivan"
+   ]
+  },
+  {
+   "qid": "Q950897",
+   "label": "Yakov Sinai",
+   "aliases": [
+    "Ya. G. Sinai",
+    "Yakov G. Sinai",
+    "Yakov Grigor'evich Sinai",
+    "Yakov Grigorevich Sinai",
+    "Yakov Grigoryevich Sinay"
+   ]
+  },
+  {
+   "qid": "Q951235",
+   "label": "Michel Talagrand",
+   "aliases": [
+    "Michel Pierre Talagrand"
+   ]
+  },
+  {
+   "qid": "Q1076636",
+   "label": "Luis Caffarelli",
+   "aliases": [
+    "Luis Angel Caffarelli"
+   ]
+  },
+  {
+   "qid": "Q351822",
+   "label": "John Tate",
+   "aliases": [
+    "John Torrence Tate"
+   ]
+  },
+  {
+   "qid": "Q353407",
+   "label": "Isadore Singer",
+   "aliases": [
+    "Isadore Manuel Singer"
+   ]
+  },
+  {
+   "qid": "Q353451",
+   "label": "Mikhail Gromov",
+   "aliases": [
+    "Mikhael Gromov",
+    "Mikhail Leonidovich Gromov",
+    "Misha Gromov"
+   ]
+  },
+  {
+   "qid": "Q357918",
+   "label": "László Lovász",
+   "aliases": [
+    "L. Lovász",
+    "Laszlo Lovasz"
+   ]
+  },
+  {
+   "qid": "Q370247",
+   "label": "Srinivasa Varadhan",
+   "aliases": [
+    "S. R. Srinivasa Varadhan",
+    "S.R.S. Varadhan",
+    "Sathamangalam Ranga Iyengar Srinivasa Varadhan"
+   ]
+  },
+  {
+   "qid": "Q375000",
+   "label": "Masaki Kashiwara",
+   "aliases": [
+    "柏原正樹"
+   ]
+  },
+  {
+   "qid": "Q439709",
+   "label": "Endre Szemerédi",
+   "aliases": [
+    "Endre Szemeredi"
+   ]
+  },
+  {
+   "qid": "Q77137",
+   "label": "Gerd Faltings",
+   "aliases": []
+  },
+  {
+   "qid": "Q92957",
+   "label": "Avi Wigderson",
+   "aliases": []
+  },
+  {
+   "qid": "Q451331",
+   "label": "Jacques Tits",
+   "aliases": []
+  },
+  {
+   "qid": "Q556862",
+   "label": "Hillel Furstenberg",
+   "aliases": []
+  },
+  {
+   "qid": "Q596590",
+   "label": "Louis Nirenberg",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

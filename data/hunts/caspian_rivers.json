@@ -1,0 +1,440 @@
+{
+ "name": "caspian_rivers",
+ "kind": "structures",
+ "pool": "select",
+ "question": "Find every river that flows directly into the Caspian Sea.",
+ "criterion": "river whose mouth is the Caspian Sea",
+ "where": "?x wdt:P403 wd:Q5484; wdt:P31/wdt:P279* wd:Q4022.",
+ "truth": [
+  {
+   "qid": "Q80240",
+   "label": "Ural",
+   "aliases": [
+    "Yaik",
+    "Jaik",
+    "Ural River",
+    "Zhayyq"
+   ]
+  },
+  {
+   "qid": "Q626",
+   "label": "Volga",
+   "aliases": [
+    "Wolga",
+    "Volga River",
+    "R. Volga",
+    "R. Wolga",
+    "River Volga",
+    "River Wolga",
+    "Volga R.",
+    "Wolga R.",
+    "Wolga River",
+    "Rā (in Scythian)",
+    "Rha river (in Scythian)",
+    "Oares (in Greek)"
+   ]
+  },
+  {
+   "qid": "Q38609",
+   "label": "Gyulgerychay",
+   "aliases": [
+    "Gyul'gerychay"
+   ]
+  },
+  {
+   "qid": "Q156557",
+   "label": "Kura River",
+   "aliases": [
+    "Kür çayı",
+    "Kür",
+    "Kura Nehri",
+    "Mtkvari"
+   ]
+  },
+  {
+   "qid": "Q182042",
+   "label": "Kuma",
+   "aliases": [
+    "Kuma River"
+   ]
+  },
+  {
+   "qid": "Q283301",
+   "label": "Kojur River",
+   "aliases": [
+    "Kojoor River",
+    "Rūdkhāneh-ye Kojūr"
+   ]
+  },
+  {
+   "qid": "Q283622",
+   "label": "Atrek River",
+   "aliases": [
+    "Rūdkhāneh-ye Atrak"
+   ]
+  },
+  {
+   "qid": "Q517670",
+   "label": "Emba River",
+   "aliases": [
+    "Zhem"
+   ]
+  },
+  {
+   "qid": "Q770781",
+   "label": "Sulak",
+   "aliases": [
+    "Sulak River"
+   ]
+  },
+  {
+   "qid": "Q1342847",
+   "label": "Samur",
+   "aliases": [
+    "Samur River"
+   ]
+  },
+  {
+   "qid": "Q1430986",
+   "label": "Sefid Rud",
+   "aliases": [
+    "Amardos",
+    "Safid River",
+    "Safid Rud",
+    "Sefid River",
+    "Sefīd-Rūd",
+    "Šāhrud"
+   ]
+  },
+  {
+   "qid": "Q82776",
+   "label": "Terek",
+   "aliases": [
+    "Terek River"
+   ]
+  },
+  {
+   "qid": "Q116771143",
+   "label": "Tashkuh River",
+   "aliases": [
+    "Rūdkhāneh-ye Tāshkūh"
+   ]
+  },
+  {
+   "qid": "Q2626727",
+   "label": "Kura",
+   "aliases": [
+    "Kura River"
+   ]
+  },
+  {
+   "qid": "Q3275381",
+   "label": "Astarachay",
+   "aliases": [
+    "Astara Rud"
+   ]
+  },
+  {
+   "qid": "Q3720244",
+   "label": "Rubas (river)",
+   "aliases": [
+    "Rubas River"
+   ]
+  },
+  {
+   "qid": "Q3720471",
+   "label": "Shuraozen",
+   "aliases": [
+    "Shura-Ozen River",
+    "Shuraozen'"
+   ]
+  },
+  {
+   "qid": "Q4098333",
+   "label": "Buzan",
+   "aliases": [
+    "Buzan River"
+   ]
+  },
+  {
+   "qid": "Q4111448",
+   "label": "Vilesh",
+   "aliases": [
+    "Weli-Tschai"
+   ]
+  },
+  {
+   "qid": "Q4143776",
+   "label": "Gorganrud",
+   "aliases": [
+    "Gorganrud River",
+    "Rūd-e Gorgān"
+   ]
+  },
+  {
+   "qid": "Q4244438",
+   "label": "Qudyalçay",
+   "aliases": [
+    "Qudiyalçay"
+   ]
+  },
+  {
+   "qid": "Q4249198",
+   "label": "Qusar River",
+   "aliases": [
+    "Qusarçay"
+   ]
+  },
+  {
+   "qid": "Q5670159",
+   "label": "Tajan River",
+   "aliases": [
+    "Rūdkhāneh-ye Tajan"
+   ]
+  },
+  {
+   "qid": "Q5673901",
+   "label": "Babol River",
+   "aliases": [
+    "Babol Rud"
+   ]
+  },
+  {
+   "qid": "Q6295339",
+   "label": "Qarasu River",
+   "aliases": [
+    "Rūdkhāneh-ye Qarah Sū",
+    "Qarasu River (Caspian Sea)"
+   ]
+  },
+  {
+   "qid": "Q6359956",
+   "label": "Kamyzyak",
+   "aliases": [
+    "Kizan",
+    "Kamyzyak River"
+   ]
+  },
+  {
+   "qid": "Q6566845",
+   "label": "Artozen",
+   "aliases": [
+    "Artozen'"
+   ]
+  },
+  {
+   "qid": "Q6580967",
+   "label": "Cherkesozen",
+   "aliases": [
+    "Cherkesozen'"
+   ]
+  },
+  {
+   "qid": "Q7572056",
+   "label": "Haraz River",
+   "aliases": [
+    "Rūdkhāneh-ye Harāz"
+   ]
+  },
+  {
+   "qid": "Q12844309",
+   "label": "Karachay",
+   "aliases": [
+    "Qaraçay"
+   ]
+  },
+  {
+   "qid": "Q16415089",
+   "label": "Ceyrankeçməzçay",
+   "aliases": [
+    "Dzhuvan-Kechmes"
+   ]
+  },
+  {
+   "qid": "Q24884309",
+   "label": "Cheshmeh Kileh River",
+   "aliases": [
+    "Rūdkhāneh-ye Cheshmeh Kīleh"
+   ]
+  },
+  {
+   "qid": "Q32753554",
+   "label": "Galand River",
+   "aliases": [
+    "Galand Rūd",
+    "Galandrud River",
+    "Rūdkhāneh-ye Galand",
+    "Rūdkhāneh-ye Galand Rūd"
+   ]
+  },
+  {
+   "qid": "Q35474276",
+   "label": "Dinachal River",
+   "aliases": [
+    "Denya Chal River",
+    "Lamir River",
+    "Lomir River",
+    "Rūd-e Lamīr",
+    "Rūd-e Lomīr",
+    "Rūdkhāneh-ye Denyā Chāl",
+    "Rūdkhāneh-ye Dīnāchāl",
+    "Rūdkhāneh-ye Lūmīr"
+   ]
+  },
+  {
+   "qid": "Q35492887",
+   "label": "Neka River",
+   "aliases": [
+    "Naka River",
+    "Neka River (Iran)",
+    "Rudkhaneh-ye Naka",
+    "Rudkhaneh-ye Neka"
+   ]
+  },
+  {
+   "qid": "Q94532301",
+   "label": "Safa River",
+   "aliases": [
+    "Safarud"
+   ]
+  },
+  {
+   "qid": "Q95994331",
+   "label": "Sefid River",
+   "aliases": [
+    "Sefid River (Bandar-e Anzali)"
+   ]
+  },
+  {
+   "qid": "Q283182",
+   "label": "Sardab River",
+   "aliases": []
+  },
+  {
+   "qid": "Q2598623",
+   "label": "Pirsaat River",
+   "aliases": []
+  },
+  {
+   "qid": "Q3512615",
+   "label": "Sumgayit River",
+   "aliases": []
+  },
+  {
+   "qid": "Q3732920",
+   "label": "Ulluchay",
+   "aliases": []
+  },
+  {
+   "qid": "Q4081965",
+   "label": "Belinsky Bank",
+   "aliases": []
+  },
+  {
+   "qid": "Q4104864",
+   "label": "Vasilyevsky Bank",
+   "aliases": []
+  },
+  {
+   "qid": "Q4240768",
+   "label": "Kirvoy Bank",
+   "aliases": []
+  },
+  {
+   "qid": "Q4441054",
+   "label": "Stary Igolkinsky Bank",
+   "aliases": []
+  },
+  {
+   "qid": "Q4534926",
+   "label": "Yurinsky Bank",
+   "aliases": []
+  },
+  {
+   "qid": "Q5069085",
+   "label": "Chalus River",
+   "aliases": []
+  },
+  {
+   "qid": "Q5714232",
+   "label": "Talar River",
+   "aliases": []
+  },
+  {
+   "qid": "Q5859973",
+   "label": "Siah Rud (Mazandaran)",
+   "aliases": []
+  },
+  {
+   "qid": "Q6565418",
+   "label": "Darvagchay",
+   "aliases": []
+  },
+  {
+   "qid": "Q6567026",
+   "label": "Achisu",
+   "aliases": []
+  },
+  {
+   "qid": "Q6580980",
+   "label": "Manasozen",
+   "aliases": []
+  },
+  {
+   "qid": "Q12837062",
+   "label": "Ağçay",
+   "aliases": []
+  },
+  {
+   "qid": "Q12848511",
+   "label": "Chaghajikchay",
+   "aliases": []
+  },
+  {
+   "qid": "Q16047168",
+   "label": "Lavandevil River",
+   "aliases": []
+  },
+  {
+   "qid": "Q16418271",
+   "label": "Velvelechay",
+   "aliases": []
+  },
+  {
+   "qid": "Q19907688",
+   "label": "Bolda",
+   "aliases": []
+  },
+  {
+   "qid": "Q19916671",
+   "label": "Staraya Volga",
+   "aliases": []
+  },
+  {
+   "qid": "Q28667643",
+   "label": "Sukhodol",
+   "aliases": []
+  },
+  {
+   "qid": "Q95985868",
+   "label": "Langarud River",
+   "aliases": []
+  },
+  {
+   "qid": "Q95985914",
+   "label": "Shalman River",
+   "aliases": []
+  },
+  {
+   "qid": "Q96759250",
+   "label": "Sesk River",
+   "aliases": []
+  },
+  {
+   "qid": "Q109551964",
+   "label": "Nekarud",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}

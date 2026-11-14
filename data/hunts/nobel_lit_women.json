@@ -1,0 +1,192 @@
+{
+ "name": "nobel_lit_women",
+ "kind": "people",
+ "pool": "test",
+ "question": "Find every woman who has won the Nobel Prize in Literature.",
+ "criterion": "woman who won the Nobel Prize in Literature",
+ "where": "?x p:P166/ps:P166 wd:Q37922; wdt:P21 wd:Q6581072.",
+ "truth": [
+  {
+   "qid": "Q7728",
+   "label": "Grazia Deledda",
+   "aliases": [
+    "Ilia di Saint-Ismael",
+    "Grazia Maria Cosima Damiana Deledda"
+   ]
+  },
+  {
+   "qid": "Q38049",
+   "label": "Herta Müller",
+   "aliases": [
+    "H. Müller",
+    "H. Müller",
+    "H. Muller",
+    "H. Mueller",
+    "H. Muller",
+    "Herta Mueller",
+    "Herta Muller",
+    "H. Mueller",
+    "Herta Muller"
+   ]
+  },
+  {
+   "qid": "Q40874",
+   "label": "Doris Lessing",
+   "aliases": [
+    "Doris May Lessing",
+    "Doris May Tayler",
+    "Jane Somers",
+    "Doris May Lessing",
+    "Doris May Tayler"
+   ]
+  },
+  {
+   "qid": "Q42552",
+   "label": "Wisława Szymborska",
+   "aliases": [
+    "Szymborska",
+    "Maria Wisława Anna Szymborska",
+    "Wislawa Szymborska"
+   ]
+  },
+  {
+   "qid": "Q44519",
+   "label": "Selma Lagerlöf",
+   "aliases": [
+    "Selma Ottilia Lovisa Lagerlöf"
+   ]
+  },
+  {
+   "qid": "Q72334",
+   "label": "Toni Morrison",
+   "aliases": [
+    "Chloe Anthony Wofford",
+    "Chloe Anthony Wofford Morrison",
+    "Chloe Anthony Wofford-Morrison",
+    "Chloe Ardelia Wofford",
+    "Chloe Anthony Wofford-Morrison"
+   ]
+  },
+  {
+   "qid": "Q57074",
+   "label": "Nelly Sachs",
+   "aliases": [
+    "Leonie Sachs",
+    "Leonie Sachs"
+   ]
+  },
+  {
+   "qid": "Q80900",
+   "label": "Pearl S. Buck",
+   "aliases": [
+    "John Sedges",
+    "Pearl Buck",
+    "Pearl Comfort Sydenstricker",
+    "Pearl Comfort Sydenstricker Buck",
+    "Pearl Sydenstricker",
+    "Pearl Sydenstricker Buck",
+    "Pirl Bak",
+    "Sai Zhenzhu",
+    "Bīrl Bak",
+    "Chen-chu Sai",
+    "Parla Baka",
+    "Pearl Sydenstricker Buck Walsh",
+    "Perl Bak",
+    "Pērl Es. Pak",
+    "Pērla Bak",
+    "Pērla S. Baka",
+    "Pʻŏl S. Bŏk",
+    "Pŭrl Bŭk",
+    "Zhenzhu Sai"
+   ]
+  },
+  {
+   "qid": "Q254032",
+   "label": "Olga Tokarczuk",
+   "aliases": [
+    "Natasza Borodin",
+    "Olga Nawoja Tokarczuk"
+   ]
+  },
+  {
+   "qid": "Q274334",
+   "label": "Svetlana Alexievich",
+   "aliases": [
+    "Svetlana Aleksievič",
+    "Svetlana Aleksievich",
+    "Svetlana Aleksiyevich",
+    "Svetlana Alexandrovna Alexievich",
+    "Sviatlana Aleksievich",
+    "Svyatlana Alyaksandrawna Alyeksiyevich",
+    "Svyatlana Alyeksiyevich"
+   ]
+  },
+  {
+   "qid": "Q80871",
+   "label": "Gabriela Mistral",
+   "aliases": [
+    "Lucila de Maria del Perpetuo Socorro Godoy Alcayaga",
+    "Lucila de María Godoy Alcayaga",
+    "Lucila Godoy Alcayaga",
+    "Lucila de María del Perpetuo Socorro Godoy Alcayaga"
+   ]
+  },
+  {
+   "qid": "Q234819",
+   "label": "Alice Munro",
+   "aliases": [
+    "Alice Ann Laidlaw Munro",
+    "Alice Ann Munro",
+    "Alice Anne Munro",
+    "Alice Laidlaw",
+    "Alice Ann Laidlaw"
+   ]
+  },
+  {
+   "qid": "Q1153825",
+   "label": "Annie Ernaux",
+   "aliases": [
+    "Annie Duchesne"
+   ]
+  },
+  {
+   "qid": "Q2344210",
+   "label": "Louise Glück",
+   "aliases": [
+    "Louise Elisabeth Glück",
+    "Louise Gluck"
+   ]
+  },
+  {
+   "qid": "Q2633699",
+   "label": "Anne Carson",
+   "aliases": [
+    "Anne Patricia Carson",
+    "Anne Patricia Carson"
+   ]
+  },
+  {
+   "qid": "Q5646626",
+   "label": "Han Kang",
+   "aliases": [
+    "Han Gang"
+   ]
+  },
+  {
+   "qid": "Q80889",
+   "label": "Sigrid Undset",
+   "aliases": []
+  },
+  {
+   "qid": "Q47243",
+   "label": "Elfriede Jelinek",
+   "aliases": []
+  },
+  {
+   "qid": "Q47619",
+   "label": "Nadine Gordimer",
+   "aliases": []
+  }
+ ],
+ "built": "2026-11-14"
+}
