@@ -44,3 +44,23 @@ While answering the reward-hacking question in [Define and Prevent Reward Hackin
 ### Inference and response
 
 This narrows the comparison toward mixed-kind unseen hunts, with Jack's preference stated tentatively. The task, its kinds, the referee, the sample size and the budget are still unselected.
+
+## November 14 — at the event: a known-answer task first, an unknown-answer comparison if time allows
+
+### Observed conditions
+
+During the team introductions recorded in [Team Backgrounds and a Proposed Work Split](../a7769974-3ff8-4e30-9fd4-975bf08ff6f2/node.md), Amala described a buoy-placement project where existing models are "just best guesses". The source is an unlabelled speech-to-text transcript; the reply below is attributed to Jack from its content.
+
+> "Whoa, that's actually really relevant to what we're doing because there's no set answer. There's no answer for that. [Our] thing actually has an answer, and part of the reason why is because I wanted to make sure we were improving. But if our thing actually ends up being good, we might want to do searches that are like we don't even know the answer yet. And then compare it to baseline. Like if we just had AI search with telem or whatever, what would it be? And then compare that to we've proved that our thing it's better. So what is our improved final search what does that bring back? [...] And then this is like more of a human judging thing, but like which answer do we think is better? [...] We might be if we if we put have time we can pull that off."
+
+The transcript reads "R thing" where the quotation has "[Our] thing".
+
+### Inference and response
+
+Jack told the team that the scored task has an answer, and gave his reason: to be sure the method is improving. The transcript does not name that task or its referee, so this node still does not record them.
+
+He also floated a second comparison, conditional on the method working and on time: searches with no known answer, the final improved method against plain AI search through Telem, with people judging which answer is better. The assistant's earlier "closing showpiece" was a model-judged open hunt. Jack's version names a baseline and uses human judges. It is a possibility he raised, not selected work.
+
+The assistant suggested that the judges compare the two answers without knowing which method produced which. Jack did not respond to that. The sample size and budget remain unselected.
+
+Source: Pi session `01a1db79-c926-7284-80b0-36135ff23ffd`, retained under [Team Backgrounds and a Proposed Work Split](../a7769974-3ff8-4e30-9fd4-975bf08ff6f2/node.md) at `artifacts/chats/pi-searchhack-team-intros.jsonl`.
