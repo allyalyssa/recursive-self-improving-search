@@ -1,0 +1,95 @@
+---
+id: "a472e05c-9bbf-48f2-89d7-6c6092c339ed"
+name: "CLI Operations"
+micro_summary: "Guides authorized use of the local Core command."
+status: "resolved"
+see_also: [{"target":"6da0b35a-955a-4ad2-bdce-2994ba26119c","reason":"Use the diagnosed-problem path to matching source and maintenance guidance."}]
+scope: "Operate local Core within the user's permissions."
+warnings: ""
+position: 5120
+---
+## Install and verify
+
+For an authorized installation, use the source repository's INSTALL.md.
+
+```sh
+curl -fsSL https://sifttext.com/install | sh
+```
+
+Open a new shell when sifttext is not yet on PATH.
+
+Set BIN to the installed launcher, normally "$HOME/.local/share/sifttext/sifttext".
+
+Run "$BIN" runtime-check to verify the bundled assets.
+
+For a source build, follow the checkout's AGENTS.md and scripts.
+
+## Initialize
+
+Run one initialization for the selected knowledge home.
+
+```sh
+"$BIN" init "$home"
+"$BIN" init "$alternate_home" --bundle "$bundle"
+"$BIN" init "$empty_home" --empty
+```
+
+The default seed copies the bundled instructions into an independent Git repository.
+
+Keep software and contributor checkouts outside the knowledge home.
+
+Initialization preserves an existing recognized home.
+
+A new home with the complete instruction pipeline receives an AGENTS.md pointer.
+
+## Find instructions
+
+```sh
+"$BIN" instructions "$home"
+```
+
+Read `onboarding-entry` and follow `agent-instructions` before other work. Use [Onboarding Output and Help](../a8be9278-ca1b-4bf4-9fa7-027105bb6c36/node.md) to interpret retained transport, repair, update and harness notices. The grouped help index is appended automatically; `sifttext help` lists each command form and guide.
+
+During authorized setup, follow [Maintain Memory Continuity](../221ca2fc-1caf-4c40-92e5-d9f55501ba1e/node.md).
+
+Read Worktree Publication before changing knowledge.
+
+## Connect a project folder
+
+Add the maintained entry-node path to the project's AGENTS.md.
+
+```markdown
+Read <project-entry-node-path> for this project's maintained knowledge. The existing repository instructions below remain applicable.
+```
+
+Preserve the original file as an exact suffix and verify that the path resolves.
+
+## Session evidence
+
+Use [Session Evidence](../3651b9b0-fc21-4c67-9d79-84ef3af963ce/node.md) during Commit when a session materially supports the knowledge.
+
+## Account and sync
+
+For account access, upload consent, sharing selection and sync recovery, read [Account and Synced Knowledge](../12e1e893-b0ab-4f82-b0db-37de70b95034/node.md). The `login` and `account` receipts return this guide's path in the installed runtime.
+
+## Hosted checks
+
+Use [Epistemic Check](../1b668703-b591-4790-ae6b-5c4202413de5/node.md) to prepare the work packet, review a draft with `sifttext epistemic-check`, and submit it with the same packet.
+
+For on-demand writing review with `sifttext slop-check FILE`, follow [AI Slop Writing Check](../869c330b-ec65-4ecd-9d03-9a09dab87010/node.md).
+
+Use `sifttext check-result REQUEST_ID` to retrieve a saved check without rerunning or charging again. Read the checker guidance before explaining credits, retention or unchecked saves.
+
+## Configuration
+
+Read the existing settings and the installed CLI's supported options before changing configuration.
+
+Preserve unrelated settings and do not write undocumented fields.
+
+## Failure
+
+Inspect a failed operation before retrying it.
+
+Run "$BIN" source-code to obtain matching source and maintenance guidance.
+
+Review privacy before publishing a repair.
